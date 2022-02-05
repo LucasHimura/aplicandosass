@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(231, 186, 186);
+}
+
+html {
+    font-family:monospace;
+}
+
+@media (min-width:768px) {
+.logoSansa {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 80px;
+    left: 0px;
+    padding: 0px 0px 0px 0px;
+    border: 5px solid rgb(139, 105, 146);
+    border-radius: 5px;
+    margin: 2px;
+}
+}
+
+ 
+li {
+    padding: 10px 10px 10px 10px;
+    margin-left: 130px;
+    display: inline-block;
+}
+@media (min-width:768px) {
+.frase {
+    font-style: oblique;
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-left: 230px;
+    margin-right: 675px;
+    margin-bottom: 100px;
+
+
+}
+}
+@media (min-width:768px) {
+section {
+    font-style: oblique;
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-top: 130px;
+
+
+
+}
+
+
+.musculosaHombrera {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.remeraKaty {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.shortMarruecos {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.topIbis {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.productoVideo {
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+
+}
+
+.video {
+    padding: 10px 10px 10px 10px;
+    border: 5px;
+    margin-left: 350px;
+    margin-right: 100px;
+
+}
+
+h2 {
+    padding: 10px, 10px, 10px, 10px;
+    margin-left: 50px;
+    border: 0px, 0px, 0px, 0px;
+
+}
+
+
+
+.insta {
+    background-color: turquoise;
+    border-color: tomato;
+    border-radius: 5px;
+    margin-left: 50px;
+
+
+}
+
+.wp {
+    background-color: turquoise;
+    border-color: tomato;
+    border-radius: 5px;
+}
+}
+@media (min-width:768px) {
+.vestidos{
+    display: grid;
+grid-template-columns: 1fr 1fr; 
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas:
+"vestidos"  
+"precio1"  
+"vestido1"
+"precio1"
+"vestido2"
+"precio2"
+"vestido3"
+"precio3"
+   
+    
+;
+}
+
+
+.vestidoLali {
+    grid-area: vestido1;
+}
+
+.vestidoMandy {
+    grid-area: vestido2;
+}
+
+.vestidoSara {
+    grid-area: vestido3;
+}
+
+.vestidos {
+    grid-area: vestidos;
+    }
+    
+.precioVestido1 {
+    grid-area: precio1;
+            }
+            
+.precioVestido3 {
+    grid-area: precio2;
+            }
+            
+.precioVestido3 {
+    grid-area: precio3;
+            }
+        }
+
+
+
+
+
